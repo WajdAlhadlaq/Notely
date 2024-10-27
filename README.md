@@ -1,6 +1,22 @@
 <<<<<<< HEAD
 # Notely
-=======
+========
+<h1> notes.ts interface</h1>
+create an interface with needed variables 
+-id
+-title 
+-text
+
+<h1> Note Service </h1>
+import notes inteface
+create array of type Note as the interface
+create function getNotes
+create function addNote(note: Note) with argument to push to the array
+
+<h1> Note Service </h1>
+
+
+=========
 # MyNote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
