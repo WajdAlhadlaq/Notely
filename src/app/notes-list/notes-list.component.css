@@ -1,0 +1,47 @@
+.container {
+    padding: 20px;
+  }
+  
+  .list-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px; /* Space between squares */
+    list-style: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .note-square {
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: black; /* Text color for readability */
+  }
+  
+  /* Specific colors for each nth child */
+  
+/* Cycle through colors using nth-child */
+.list-group-item:nth-child(3n+1) {
+    background-color: #de9ec0; /* Pink */
+  }
+  
+  .list-group-item:nth-child(3n+2) {
+    background-color: #aef1b9; /* Light Green */
+  }
+  
+  .list-group-item:nth-child(3n+3) {
+    background-color: #74cbed; /* Aqua */
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+  }
+  

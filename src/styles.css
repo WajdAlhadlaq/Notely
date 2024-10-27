@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #ffffff; /* Light gray background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Set height to full viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  

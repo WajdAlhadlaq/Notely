@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>My Notes</h1>
+  <ul class="list-group">
+    <li class="list-group-item note-square" *ngFor="let note of notes">
+      <strong>{{ note.title }}</strong>: {{ note.text }}
+    </li>
+  </ul>
+  <button type="button" class="btn btn-primary" routerLink="/new">Add Note</button>
+</div>

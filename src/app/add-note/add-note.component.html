@@ -1,0 +1,14 @@
+<form [formGroup]="noteForm" (ngSubmit)="addNote()">
+
+    <label for="note-title">Username: 
+      <input id="note-title" type="text" formControlName="title" name="title" /> <!-- Add name attribute -->
+    </label>
+  <br>
+    <label for="note-text">Password: 
+      <input id="note-text" formControlName="text" name="text" /> <!-- Add name attribute -->
+    </label>
+  <br>
+    <button  type="button" class="btn btn-primary" (click)="addNote()" [disabled]="!noteForm.valid">Submit</button>
+
+  </form>
+ 
